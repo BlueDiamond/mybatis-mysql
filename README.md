@@ -1,4 +1,0 @@
-mybatis-mysql
-=============
-
-mybatis-mysql
