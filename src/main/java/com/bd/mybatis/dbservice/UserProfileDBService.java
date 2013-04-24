@@ -15,7 +15,7 @@ public interface UserProfileDBService {
 	public int updateUserProfile(UserProfile userProfile) throws Exception;
 
 	public int deleteUserProfile(long profileID) throws Exception;
-	
+
 	public int getMaxUserProfileID() throws Exception;
 
 }

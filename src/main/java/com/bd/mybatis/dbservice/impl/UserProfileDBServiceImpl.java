@@ -9,7 +9,7 @@ import com.bd.mybatis.bean.UserProfile;
 import com.bd.mybatis.dao.UserProfileDao;
 import com.bd.mybatis.dbservice.UserProfileDBService;
 
-@Service
+@Service("userProfileDBService")
 public class UserProfileDBServiceImpl implements UserProfileDBService {
 
 	@Autowired
